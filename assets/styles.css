@@ -22,7 +22,7 @@ button{
 .btn-checkout {
     margin-left: .5em;
 }
-.cart-item {
+.cart-item, .cart-item2 {
     display: flex;
     position: relative;
     padding: 1em;
@@ -36,13 +36,13 @@ button{
     height: 200px;
     object-fit: cover;
 }
-.total-quantity {
+.total-quantity, .total-quantity2 {
     font-weight: 800;
 }
-.total-price {
+.total-price, .total-price2 {
     padding: 1em 0;
 }
-.remove {
+.remove, .remove2 {
     position: absolute;
     right: 0;
     margin-right: 1em;
